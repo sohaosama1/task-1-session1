@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doctor Appointment Form</title>
+    <link rel="stylesheet" href="sic.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    
+    <div class="image">
+        <img src="beautiful-young-lady-doctor-cartoon-vector-illustration_1048368-424.avif" alt="doctor image">
+    </div>
+
+   
+    <div class="form-box">
+        <h1>Doctor Appointment Form</h1>
+        <hr>
+
+        <form>
+            <label>Appointment Date</label>
+            <input type="date">
+
+            
+            <label>Appointment Time</label>
+            <input type="time">
+
+            
+            <label>Name</label>
+            <div class="name">
+                <input type="text" placeholder="First" required>
+                <input type="text" placeholder="Last" required>
+            </div>
+
+            
+            <label>Gender</label>
+            <div class="gender">
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+            </div>
+
+           
+            <label>Phone</label>
+            <input type="tel" placeholder="####">
+
+           
+            <label>Address</label>
+            <div class="address">
+                <input type="text" placeholder="city">
+                <input type="text" placeholder="state">
+            </div>
+
+           
+            <label>Your Query</label>
+            <textarea rows="5"></textarea>
+
+            
+            <label>Appointment Type</label>
+            <div class="check">
+                <input type="checkbox"> Cervix checkup <br>
+                <input type="checkbox"> Heart checkup <br>
+                <input type="checkbox"> Eye check-up <br>
+                <input type="checkbox"> Hearing Test
+            </div>
+
+            <button type="submit">Send</button>
+
+        </form>
+
+    </div>
+
+</div>
+
+</body>
+</html>
