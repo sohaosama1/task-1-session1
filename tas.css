@@ -1,0 +1,52 @@
+
+body {
+    background-color: #2a3f61ee; 
+    color: #000000; 
+    
+    margin: 0;
+    padding: 40px;
+}
+
+header h1 {
+    color: #b47d16; 
+    margin-bottom: 10px;
+}
+
+header p {
+    margin-top: 0;
+    border-bottom: 2px solid #333;
+    padding-bottom: 20px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 30px; 
+    margin-top: 30px;
+}
+
+
+.place-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    flex: 1;
+    padding-right: 15px;
+    font-size: 21px;
+    line-height: 1.6;
+}
+
+.image {
+    flex: 1;
+}
+
+.image img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover; 
+    border: 2px solid #000;
+}
